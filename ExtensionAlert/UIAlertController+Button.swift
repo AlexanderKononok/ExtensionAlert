@@ -8,7 +8,8 @@
 import UIKit
 
 extension UIAlertController {
-  func setAlertWithOneButton(titleForAlert title: String?, messageForAlert message: String?, preferredStyle: UIAlertController.Style = .alert, titleForButton: String? = "OK") {
+  func setAlertWithOneButton(titleForAlert title: String?, messageForAlert message: String?,
+                             preferredStyle: UIAlertController.Style = .alert, titleForButton: String? = "OK") {
     self.title = title
     self.message = message
     
@@ -16,7 +17,9 @@ extension UIAlertController {
     self.addAction(buttonAction)
   }
   
-  func setAlertWithTwoButtons(titleForAlert title: String?, messageForAlert message: String?, preferredStyle: UIAlertController.Style = .alert, titleForFirstButton: String? = "Buy", titleForSecondButton: String? = "Shut up and take my money!") {
+  func setAlertWithTwoButtons(titleForAlert title: String?, messageForAlert message: String?,
+                              preferredStyle: UIAlertController.Style = .alert, titleForFirstButton: String? = "Buy",
+                              titleForSecondButton: String? = "Shut up and take my money!") {
     self.title = title
     self.message = message
     
