@@ -20,9 +20,9 @@ class ViewController: UIViewController {
     let alert = UIAlertController()
     
 //    alert.setAlertWithOneButton(titleForAlert: "Alex", messageForAlert: "YOU ARE NOT PREPARED!")
-    alert.setAlertWithOneButton(titleForAlert: "Alex", messageForAlert: "YOU ARE NOT PREPARED!", titleForButton: "NOOOOOO...")
+//    alert.setAlertWithOneButton(titleForAlert: "Alex", messageForAlert: "YOU ARE NOT PREPARED!", titleForButton: "NOOOOOO...")
     
-//    alert.setAlertWithTwoButtons(titleForAlert: "NEW iPhone 12", messageForAlert: nil)
+    alert.setAlertWithTwoButtons(titleForAlert: "NEW iPhone 12", messageForAlert: nil, titleForFirstButton: "Buy", titleForSecondButton: "Shut up and take my money!")
     
     present(alert, animated: true)
   }

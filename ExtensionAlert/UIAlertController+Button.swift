@@ -18,8 +18,8 @@ extension UIAlertController {
   }
   
   func setAlertWithTwoButtons(titleForAlert title: String?, messageForAlert message: String?,
-                              preferredStyle: UIAlertController.Style = .alert, titleForFirstButton: String? = "Buy",
-                              titleForSecondButton: String? = "Shut up and take my money!") {
+                              preferredStyle: UIAlertController.Style = .alert, titleForFirstButton: String? = "ok",
+                              titleForSecondButton: String? = "OK") {
     self.title = title
     self.message = message
     
